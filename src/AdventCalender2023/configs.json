@@ -1,0 +1,8 @@
+{
+    "database": {
+        "host": "host.feature1.jp",
+        "user": "user_for_feature1",
+        "password": "password_for_feature1",
+        "database": "database_for_feature1"
+    }
+}

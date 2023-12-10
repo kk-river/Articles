@@ -1,0 +1,6 @@
+{
+    "database": {
+        "commandTimeout": "Command failed with timeout.",
+        "unknownHost": "Unknown host."
+    }
+}
