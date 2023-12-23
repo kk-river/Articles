@@ -12,6 +12,8 @@ public partial class App : ThinApplication
         base.ConfigureServices(services);
 
         IConfiguration configuration = new ConfigurationBuilder()
+            //.AddJsonFile("messages.json", false, false)
+            //.AddJsonFile("configs.json", false, false)
             .Add(new PrefixJsonConfigurationSource() { Path = "messages.json", Prefix = "messages", ReloadOnChange = true, })
             .Add(new PrefixJsonConfigurationSource() { Path = "configs.json", Prefix = "configs", ReloadOnChange = true, })
             .Build();
