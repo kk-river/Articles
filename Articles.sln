@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventCalender2022", "src\A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventCalender2023", "src\AdventCalender2023\AdventCalender2023.csproj", "{82518C57-1E16-4B28-8962-268761663172}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryObjectPool", "src\TryObjectPool\TryObjectPool.csproj", "{6CB8A87A-E1AC-4467-9267-ED2EF8603B72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{82518C57-1E16-4B28-8962-268761663172}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82518C57-1E16-4B28-8962-268761663172}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82518C57-1E16-4B28-8962-268761663172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CB8A87A-E1AC-4467-9267-ED2EF8603B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB8A87A-E1AC-4467-9267-ED2EF8603B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB8A87A-E1AC-4467-9267-ED2EF8603B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB8A87A-E1AC-4467-9267-ED2EF8603B72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
